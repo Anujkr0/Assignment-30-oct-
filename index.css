@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.firstdiv {
+    position: relative;
+    min-height: 400px;
+    width: 360px;
+    background: #fff;
+    box-shadow: 15px 15px 60px rgb(0,0,0,0.15);
+}
+.firstdiv .secdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.firstdiv .secdiv .details {
+    display: flex;
+    align-items: center;
+
+}
+.firstdiv .secdiv .details .profile {
+    position: relative;
+    height: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 8px;
+}
+.upper {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.firstdiv .secdiv .details h3 {
+    font-size: 16px;
+    color: #4d4d4d;
+    font-weight: 500;
+    line-height: 1em;
+
+}
+.firstdiv .secdiv .details h3 span {
+    font-size: 0.75em;
+}
+
+.imagepost {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    margin: 10px 0 15px;
+}
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button img {
+    max-width: 24px;
+    cursor: pointer;
+}
+.button .left img {
+    margin-right: 8px;
+
+
+}
+.likes {
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #4d4f4d;
+}
+.message {
+    font-weight: 400;
+    margin-top: 5px;
+    color: #777;
+    line-height: 1.5em; 
+}
+.message b {
+    color: #262626;
+}
+.comments {
+    margin-top: 10px;
+    font-weight: 400;
+    color: #999;
+
+}
+
+
+
